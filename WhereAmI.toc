@@ -1,0 +1,12 @@
+## Interface: 60000
+
+## Title: Where Am I?
+## Author: Phanx
+## X-Email: addons@phanx.net
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+Data.lua
+Addon.lua
