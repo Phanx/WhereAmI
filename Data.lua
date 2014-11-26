@@ -1,3 +1,10 @@
+--[[-------------------------------------------------------------------------
+	Where Am I?
+	Basic location plugin for DataBroker displays.
+	Copyright (c) 2009-2014 Phanx. All rights reserved.
+	https://github.com/Phanx/WhereAmI
+---------------------------------------------------------------------------]]
+
 local _, ns = ...
 ns.zoneData = {
 	[614] = { -- Abyssal Depths

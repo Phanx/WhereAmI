@@ -1,4 +1,11 @@
-local ADDON, ns = ...
+--[[-------------------------------------------------------------------------
+	Where Am I?
+	Basic location plugin for DataBroker displays.
+	Copyright (c) 2009-2014 Phanx. All rights reserved.
+	https://github.com/Phanx/WhereAmI
+---------------------------------------------------------------------------]]
+
+local _, ns = ...
 local WhereAmI = CreateFrame("Frame")
 local zoneData = ns.zoneData
 

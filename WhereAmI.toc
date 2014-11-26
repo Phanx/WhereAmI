@@ -3,6 +3,7 @@
 ## Title: Where Am I?
 ## Author: Phanx
 ## X-Email: addons@phanx.net
+## X-Copyright: Copyright (c) 2009-2014 Phanx. All rights reserved.
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
