@@ -6,6 +6,7 @@
 ---------------------------------------------------------------------------]]
 
 local _, ns = ...
+
 ns.zoneData = {
 	[614] = { -- Abyssal Depths
 		minLevel = 80,
@@ -758,27 +759,27 @@ ns.zoneData = {
 	},
 }
 
-function lib:GetLevelRange(zoneID)
-	local t = self.data[zoneID]
+function ns.GetLevelRange(zoneID)
+	local t = ns.zoneData[zoneID]
 	return t and t.minLevel or 1, t and t.maxLevel or 90
 end
 
-function lib:GetZoneType(zoneID)
-	local t = self.data[zoneID]
+function ns.GetZoneType(zoneID)
+	local t = ns.zoneData[zoneID]
 	if t then
 		return t.zoneType or "Contested"
 	end
 end
 
-function lib:GetBattlePetLevel(zoneID)
-	local t = self.data[zoneID]
+function ns.GetBattlePetLevel(zoneID)
+	local t = ns.zoneData[zoneID]
 	if t then
 		return t.minPetLevel, t.maxPetLevel
 	end
 end
 
-function lib:GetFishingLevel(zoneID)
-	local t = self.data[zoneID]
+function ns.GetFishingLevel(zoneID)
+	local t = ns.zoneData[zoneID]
 	if t then
 		return t.fishingLevel
 	end
