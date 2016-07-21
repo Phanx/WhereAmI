@@ -1,9 +1,10 @@
-## Interface: 60100
+## Interface: 70000
 
 ## Title: Where Am I?
+## Notes: Basic location plugin for DataBroker displays.
 ## Author: Phanx
 ## X-Email: addons@phanx.net
-## X-Copyright: Copyright (c) 2009-2015 Phanx. All rights reserved.
+## X-Copyright: Copyright (c) 2009-2016 Phanx. All rights reserved.
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
